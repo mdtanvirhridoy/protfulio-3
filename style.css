@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(127, 255, 212, 0.459);
+    padding: 20px;
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50px;
+    border: 3px solid white;
+    float: left;
+}
+.header-name{
+    float: left;
+    padding: 30px;
+}
+.contact-div{
+    float: right;
+    padding: 30px;
+}
+.contact-div a{
+    text-decoration: none;
+    color: black;
+}
+.contact-div a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-claer{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* main */
+.laft-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.footer-side{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+   
+}
+.footer-side a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.footer-side p{
+    color: white;
+    margin-top: 20px;
+    font-size: small;
+}
+.footer-side a:hover{
+    color: tomato;
+}
